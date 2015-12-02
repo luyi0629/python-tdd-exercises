@@ -484,7 +484,7 @@ Be all my sins remember'd."""
 
     # and now we pass the file name to the function which will get the stats
     (most_abundant, least_abundant) = character_statistics(file_name)
-    assert (most_abundant, least_abundant) == ('e', 'q')  # here q and z are least abundant.
+    assert (most_abundant, least_abundant) == ('e', 'z')  # here q and z are least abundant.
 
     # we remove the temporary file
     os.unlink(file_name)
